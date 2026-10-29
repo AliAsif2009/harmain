@@ -1,0 +1,12 @@
+IMAGE RESTORATION - Haramain Royal Fabrics
+
+Copy / replace these from this ZIP in your existing website folder:
+1. src/lib/products.ts  (REPLACE)
+2. src/components/site.tsx (REPLACE)
+3. public/products/ (COPY THE ENTIRE NEW FOLDER, with all 12 JPGs)
+
+Do NOT replace anything else.
+
+The images are fabric color/texture previews made from an existing woven-fabric texture; they are not photographs of the shop's exact inventory.
+
+Run: npm run dev

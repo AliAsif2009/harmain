@@ -1,0 +1,12 @@
+IMAGE FIX + REMOVE PRODUCT DETAILS POPUP
+
+Copy and replace:
+1. src/components/site.tsx
+2. src/styles.css
+3. src/lib/products.ts
+4. Copy full src/assets/products/ folder with 12 JPGs
+
+Product images are imported by Vite from src/assets/products.
+Product details popup removed. Order Now opens WhatsApp.
+Keep all other project files unchanged.
+Run npm run dev; hard refresh browser (Ctrl+Shift+R).

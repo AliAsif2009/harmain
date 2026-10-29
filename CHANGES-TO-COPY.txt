@@ -1,0 +1,8 @@
+IMAGE FIX - files to copy into your existing project:
+
+1. REPLACE src/lib/products.ts
+2. ADD the complete folder src/assets/products/ (all 12 jpg files)
+3. REPLACE src/components/site.tsx (standardized image sizing)
+
+No need to replace any other files. All image imports now resolve through Vite instead of public URL paths.
+Do not put these images in the public folder only. Keep the exact filenames and directory structure.
